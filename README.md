@@ -99,7 +99,7 @@ To run this project locally, follow these steps:
 2. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Jacob-webdevstudyflow/study-flow-app.git
+   git clone https://github.com/tononjacopo/StudyFlow.git
    ```
 
 3. **Navigate to the project directory**
