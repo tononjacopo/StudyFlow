@@ -146,7 +146,7 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(bottom: 20),
                 child: Text(
-                  'Developed by Tonon e Menegazzi',
+                  'Developed by Tonon e Zanatta',
                   style: GoogleFonts.poppins(
                     fontSize: 12,
                     color: Colors.grey[400],
