@@ -21,31 +21,31 @@ A modern, responsive Flutter application for educational management, featuring i
 
 ### 🔹 Dashboard with Expanded Sidebar
 
-![Dashboard Expanded](https://github.com/Jacob-webdevstudyflow/study-flow-app/raw/main/screenshots/dashboard_expanded.png)
+![Dashboard Expanded]()
 
 *Main dashboard featuring the Study Flow logo and expanded sidebar navigation.*
 
 ### 🔹 Dashboard with Collapsed Sidebar
 
-![Dashboard Collapsed](https://github.com/Jacob-webdevstudyflow/study-flow-app/raw/main/screenshots/dashboard_collapsed.png)
+![Dashboard Collapsed]()
 
 *Space-efficient view with collapsed sidebar showing only icons for navigation.*
 
 ### 🔹 Students Management
 
-![Students Page](https://github.com/Jacob-webdevstudyflow/study-flow-app/raw/main/screenshots/students_management.png)
+![Students Page]()
 
 *Complete student management interface with search functionality and list view.*
 
 ### 🔹 Course Management
 
-![Courses Page](https://github.com/Jacob-webdevstudyflow/study-flow-app/raw/main/screenshots/courses_management.png)
+![Courses Page]()
 
 *Course catalog with detailed information and management options.*
 
 ### 🔹 Enrollments View
 
-![Enrollments Page](https://github.com/Jacob-webdevstudyflow/study-flow-app/raw/main/screenshots/enrollments_view.png)
+![Enrollments Page]()
 
 *Comprehensive view of student enrollments in courses with filtering options.*
 
@@ -58,6 +58,11 @@ A modern, responsive Flutter application for educational management, featuring i
 ├── pubspec.yaml             # Flutter dependencies and project configuration
 ├── assets/                  
 │   └── logo-studyflow.png   # Application logo
+├── database/                
+│   └── schema.sql           # SQL schema for database setup
+├── api/                     
+│   ├── api.php              # PHP file handling API requests
+│   └── .htaccess            # Configuration file for server rules (Apache)
 └── lib/                     # Main Dart code directory
     ├── main.dart            # Entry point of the application
     ├── models/              
@@ -99,7 +104,7 @@ To run this project locally, follow these steps:
 2. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Jacob-webdevstudyflow/study-flow-app.git
+   git clone https://github.com/tononjacopo/StudyFlow.git
    ```
 
 3. **Navigate to the project directory**

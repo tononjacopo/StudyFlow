@@ -1,5 +1,5 @@
-name: tpsi_app
-description: Applicazione client per web service TPSI
+name: studyflow
+description: Applicazione client per web service
 
 publish_to: 'none'
 
