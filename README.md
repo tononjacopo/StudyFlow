@@ -19,33 +19,33 @@ A modern, responsive Flutter application for educational management, featuring i
 
 ## 📸 Screenshots
 
-### 🔹 Dashboard with Expanded Sidebar
+### 🔹 Dashboard Home
 
-![Dashboard Expanded]()
+![Dashboard Expanded](https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/home.png)
 
 *Main dashboard featuring the Study Flow logo and expanded sidebar navigation.*
 
-### 🔹 Dashboard with Collapsed Sidebar
+### 🔹 Dashboard mobile
 
-![Dashboard Collapsed]()
+![Dashboard Collapsed](https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/mobile.png)
 
 *Space-efficient view with collapsed sidebar showing only icons for navigation.*
 
 ### 🔹 Students Management
 
-![Students Page]()
+![Students Page](https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/studenti.png)
 
 *Complete student management interface with search functionality and list view.*
 
-### 🔹 Course Management
+### 🔹 Subscriptions Management
 
-![Courses Page]()
+![Courses Page](https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/iscrizioni.png)
 
 *Course catalog with detailed information and management options.*
 
-### 🔹 Enrollments View
+### 🔹 Courses View
 
-![Enrollments Page]()
+![Enrollments Page](https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/corsi.png)
 
 *Comprehensive view of student enrollments in courses with filtering options.*
 
