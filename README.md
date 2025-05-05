@@ -13,7 +13,7 @@ A modern, responsive Flutter application for educational management, featuring i
 - ✅ **Responsive Layout** – Optimized for desktops, tablets, and mobile devices with adaptive layouts that adjust automatically. 📱💻
 - ✅ **Complete Student Management** – Register, view, edit, and delete students with comprehensive profile information. 👨‍🎓
 - ✅ **Course Catalog** – Organize course offerings with details including instructor, price, and comprehensive descriptions. 📚
-- ✅ **Enrollment Tracking** – Monitor which students are enrolled in specific courses with easy-to-navigate reports. ✅
+- ✅ **Enrollment Tracking** – Monitor which students are enrolled in specific courses with easy-to-navigate reports.
 - ✅ **Advanced Search** – Quickly locate students or courses using the integrated search functionality. 🔍
 - ✅ **REST API Integration** – Seamless backend connectivity through a robust RESTful API service. 🔄
 

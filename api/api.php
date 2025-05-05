@@ -58,7 +58,7 @@ $connessione->set_charset("utf8");
 // Headers per CORS e risposta - Permette richieste cross-origin
 header("Access-Control-Allow-Origin: *");                           // Consente richieste da qualsiasi origine
 header("Access-Control-Allow-Headers: Content-Type, Accept, X-HTTP-Method-Override");      // Consente header Content-Type e Accept
-header("Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE"); // Metodi HTTP permessi
+header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE"); // Metodi HTTP permessi
 // Gestisce le richieste OPTIONS per CORS preflight
 if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') exit(0);
 
@@ -238,64 +238,6 @@ function gestisciRisorsa($metodo, $id, $tabella) {
             $stmt->execute();
             rispondi($stmt->get_result()->fetch_assoc(), 200, $singolare);
             break;
-
-            case 'PATCH':
-                // UPDATE PARTIAL - Aggiorna parzialmente una risorsa esistente
-                if (!is_numeric($id)) {
-                    rispondi(["errore" => "ID non valido"], 400);
-                }
-            
-                // Verifica esistenza della risorsa
-                $stmt = $connessione->prepare("SELECT id FROM $tabella WHERE id = ?");
-                $stmt->bind_param("i", $id);
-                $stmt->execute();
-                if ($stmt->get_result()->num_rows === 0) {
-                    rispondi(["errore" => ucfirst($singolare) . " non trovato"], 404);
-                }
-            
-                $dati = ottieniDatiRichiesta();
-                if (empty($dati)) {
-                    rispondi(["errore" => "Nessun dato da aggiornare"], 400);
-                }
-            
-                // Filtra i campi validi
-                $campiValidi = array_keys($campiTabella[$tabella]);
-                $campiDaAggiornare = array_intersect(array_keys($dati), $campiValidi);
-            
-                if (empty($campiDaAggiornare)) {
-                    rispondi(["errore" => "Nessun campo valido da aggiornare"], 400);
-                }
-                
-                // Costruisci la query di aggiornamento
-                $setClause = array_map(function($campo) {
-                    return "$campo = ?";
-                }, $campiDaAggiornare);
-            
-                $query = "UPDATE $tabella SET " . implode(', ', $setClause) . " WHERE id = ?";
-                $stmt = $connessione->prepare($query);
-            
-                // Prepara i parametri
-                $tipi = '';
-                $valori = [];
-                foreach ($campiDaAggiornare as $campo) {
-                    $tipi .= $campiTabella[$tabella][$campo];
-                    $valori[] = $dati[$campo];
-                }
-                $tipi .= 'i'; 
-                $valori[] = $id;
-            
-                // Esegui la query
-                $stmt->bind_param($tipi, ...$valori);
-                if (!$stmt->execute()) {
-                    rispondi(["errore" => "Errore aggiornamento: " . $stmt->error], 500);
-                }
-            
-                // Recupera la risorsa aggiornata
-                $stmt = $connessione->prepare("SELECT * FROM $tabella WHERE id = ?");
-                $stmt->bind_param("i", $id);
-                $stmt->execute();
-                rispondi($stmt->get_result()->fetch_assoc(), 200, $singolare);
-                break;
 
         case 'DELETE':
             // DELETE - Elimina risorsa
