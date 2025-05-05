@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    
+    # Controlla se il file/directory non esiste
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    
+    # Reindirizza le richieste al pattern RESTful verso api.php
+    RewriteRule ^api/(.*)$ api.php/$1 [QSA,L]
+    
+    # Se la richiesta è direttamente alla directory api, reindirizza a api.php
+    RewriteRule ^api/?$ api.php [QSA,L]
+</IfModule>
