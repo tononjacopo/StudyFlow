@@ -21,31 +21,30 @@ A modern, responsive Flutter application for educational management, featuring i
 
 ### 🔹 Dashboard Home
 
-![Dashboard Expanded](https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/home.png)
-
+<img src="https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/home.png" width="700">
 *Main dashboard featuring the Study Flow logo and expanded sidebar navigation.*
 
 ### 🔹 Dashboard mobile
 
-![Dashboard Collapsed](https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/mobile.png)
+<img src="https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/mobile.png" width="700">
 
 *Space-efficient view with collapsed sidebar showing only icons for navigation.*
 
 ### 🔹 Students Management
 
-![Students Page](https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/studenti.png)
+<img src="https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/studenti.png" width="700">
 
 *Complete student management interface with search functionality and list view.*
 
 ### 🔹 Subscriptions Management
 
-![Courses Page](https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/iscrizioni.png)
+<img src="https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/iscrizioni.png" width="700">
 
 *Course catalog with detailed information and management options.*
 
 ### 🔹 Courses View
 
-![Enrollments Page](https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/corsi.png)
+<img src="https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/corsi.png" width="700">
 
 *Comprehensive view of student enrollments in courses with filtering options.*
 
