@@ -109,7 +109,7 @@ To run this project locally, follow these steps:
 3. **Navigate to the project directory**
 
    ```bash
-   cd study-flow-app
+   cd studyflow
    ```
 
 4. **Install dependencies**
