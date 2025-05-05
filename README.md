@@ -26,7 +26,7 @@ A modern, responsive Flutter application for educational management, featuring i
 
 ### 🔹 Dashboard mobile
 
-<img src="https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/mobile.png" heigth="400">
+<img src="https://github.com/tononjacopo/StudyFlow/blob/80c64c38bc7c517a4c46bdb7a9ba8801eb7cb4e8/assets/screenshot/mobile.png" heigth="270">
 
 *Space-efficient view with collapsed sidebar showing only icons for navigation.*
 
